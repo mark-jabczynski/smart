@@ -9,6 +9,7 @@ describe Reader do
     expect(subject).to match_array [
       have_attributes(class: Visit, page: '/help_page/1', ip: '126.318.035.038'),
       have_attributes(class: Visit, page: '/contact', ip: '184.123.665.067'),
+      have_attributes(class: Visit, page: '/contact', ip: '184.123.665.068')
     ]
   end
 
